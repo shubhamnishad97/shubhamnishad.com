@@ -2,6 +2,7 @@
 <html ⚡>
 
 <head>
+    <link rel="stylesheet" type="text/css" href="partials/main.css">
     <meta charset="utf-8">
     <link rel="canonical" href="{{ .Permalink }}" />
     <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -23,7 +24,7 @@
     <!-- Start Navbar -->
     <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4">
         <div role="button" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2">☰</div>
-        <a href="/" class="my0 mx-auto">
+        <a href="/" class="my0 mx-auto" id="mainLink">
             {{.Site.Title}}
             <!-- <amp-img src="/img/logo.svg" width="150" height="40" class="" layout="fixed" alt="{{ .Title }}"></amp-img> -->
         </a>
