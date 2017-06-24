@@ -2,8 +2,8 @@
 <html ⚡>
 
 <head>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    {{ range .Site.Params.stylesheet }}
+    <link href="/font-awesome/css/{{ . }}" rel="stylesheet" type="text/css" />{{ end }}
     <meta charset="utf-8">
     <link rel="canonical" href="{{ .Permalink }}" />
     <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -19,6 +19,8 @@
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} - {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat" rel="stylesheet">
     <style amp-custom>{{ partial "css.css" . | safeCSS }}</style>
+    <style amp-custom>{{ partial "main.css" . | safeCSS }}</style>
+
 </head>
 
 <body>
