@@ -2,7 +2,49 @@
     <header class="www-header">
         <h1 class="mb4 px2 col-12 sm-col-8 mx-auto">{{ .Title }}</h1>
         <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto">{{ .Page.Params.description }}</span>
-
+        {{ with .Site.Social }}
+        <ul class="ampstart-social-follow list-reset flex items-center flex-wrap m0 mb4 px2 col-12 sm-col-8 mx-auto">
+          {{ with .github }}
+              <li class="mr2">
+                <a href="https://github.com/{{ . }}" class="inline-block">
+                    
+                    <i class="fa fa-github"></i>        
+                </a>
+              </li>
+          {{ end }}
+          {{ with .twitter }}
+              <li class="mr2">
+                <a href="https://twitter.com/{{ . }}" class="inline-block">
+                    <i class="fa fa-twitter"></i>        
+                </a>
+              </li>
+          {{ end }}
+          {{ with .facebook }}
+              <li class="mr2">
+                <a href="https://facebook.com/{{ . }}" class="inline-block">
+                   
+                    <i class="fa fa-facebook"></i>        
+                </a>
+              </li>
+          {{ end }}
+          {{ with .angellist }}
+              <li class="mr2">
+                <a href="https://angel.co/{{ . }}" class="inline-block">
+                    
+                    <i class="fa  fa-angellist"></i>        
+                </a>
+              </li>
+          {{ end }}
+          {{ with .linkedin }}
+              <li class="mr2">
+                <a href="https://www.linkedin.com/in/{{ . }}" class="inline-block">
+                    
+                    <i class="fa fa-linkedin"></i>        
+                </a>
+              </li>
+          {{ end }}  
+        </ul>
+        {{ end }}
         </header>
     <amp-selector layout="container">
         <main class="flex pl2">
