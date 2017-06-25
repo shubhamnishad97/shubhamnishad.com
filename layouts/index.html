@@ -67,34 +67,19 @@
                     </div>
 -->
                     <div class="abe-examples flex flex-wrap">
-                        
-                        <div class="ampstart-card abe-sample-card flex flex-column flex-auto p1 mb1">
-                            <a class="ampstart-btn caps text-decoration-none inline-block" href="http://localhost:1313/about/">
-                                <h3 class="mb4">about</h3>
-                                  
-                            </a>
-                        </div>
-                        <div class="ampstart-card abe-sample-card flex flex-column flex-auto p1 mb1">
-                            <a class="ampstart-btn caps text-decoration-none inline-block" href="http://localhost:1313/projects/">
-                                <h3 class="mb4">projects</h3>
-                                  
-                            </a>
-                        </div>
-                        <div class="ampstart-card abe-sample-card flex flex-column flex-auto p1 mb1">
-                            <a class="ampstart-btn caps text-decoration-none inline-block" href="http://localhost:1313/resources/">
-                                <h3 class="mb4">Resources</h3>
-                                  
-                            </a>
-                        </div>
-                        <div class="ampstart-card abe-sample-card flex flex-column flex-auto p1 mb1">
-                            <a class="ampstart-btn caps text-decoration-none inline-block" href="http://localhost:1313/blog/">
-                                <h3 class="mb4">blog</h3>
-                                  
-                            </a>
-                        </div>
+                     {{ $sections := where (.Site.Pages) "Kind" "section" }}
+                          {{ range sort $sections  }}
+                            <div class="ampstart-card abe-sample-card flex flex-column flex-auto p1 mb1">
+                              <a  class="flex-wrap ampstart-btn caps text-decoration-none inline-block center" href="{{ .Permalink }}">
+                                <h3 class="mb4">{{ .Title }}</h3>
+                                <h6 class="mb2">{{ .Description }}</h6>
+                              </a>
+
+                            </div>
+                          {{ end }}    
                         
                       
-                    </div>
+                    
 
                     </div>
                 </section>
