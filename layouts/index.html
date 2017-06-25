@@ -70,7 +70,7 @@
                      {{ $sections := where (.Site.Pages) "Kind" "section" }}
                           {{ range sort $sections  }}
                             <div class="ampstart-card abe-sample-card flex flex-column flex-auto p1 mb1">
-                              <a  class="flex-wrap ampstart-btn caps text-decoration-none inline-block center" href="{{ .Permalink }}">
+                              <a  id="no_border" class="flex-wrap ampstart-btn caps text-decoration-none inline-block center" href="{{ .Permalink }}">
                                 <h3 class="mb4">{{ .Title }}</h3>
                                 <h6 class="mb2">{{ .Description }}</h6>
                               </a>
