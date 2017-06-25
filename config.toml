@@ -6,6 +6,7 @@ copyright = "© 2017 Copyright Text"
 canonifyurls = true
 pluralizelisttitles = false
 publishDir = "docs"
+SectionPagesMenu = "main"
 
 [params]
   description = "Hey! It's my personal site" #optional
