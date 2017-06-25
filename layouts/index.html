@@ -68,7 +68,7 @@
 -->
                     <div class="abe-examples flex flex-wrap">
                      {{ $sections := where (.Site.Pages) "Kind" "section" }}
-                          {{ range sort $sections  }}
+                          {{ range sort $sections ".Title"  }}
                             <div class="ampstart-card abe-sample-card flex flex-column flex-auto p1 mb1">
                               <a  id="no_border" class="flex-wrap ampstart-btn caps text-decoration-none inline-block center" href="{{ .Permalink }}">
                                 <h3 class="mb4">{{ .Title }}</h3>
