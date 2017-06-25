@@ -5,6 +5,8 @@ theme="amp"
 copyright = "© 2017 Copyright Text"
 canonifyurls = true
 pluralizelisttitles = false
+publishDir = "docs"
+
 [params]
   description = "Hey! It's my personal site" #optional
   googleanalytics = "Your Tracking Id" # optional
