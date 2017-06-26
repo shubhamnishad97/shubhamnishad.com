@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pp on ShubhamNishad</title>
-    <link>https://shubhamnishad97.github.io/shubhamnishad.com/tags/pp/</link>
+    <link>https://shubhamnishad.com/tags/pp/</link>
     <description>Recent content in Pp on ShubhamNishad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2017 Copyright Text</copyright>
     <lastBuildDate>Sat, 24 Jun 2017 14:42:12 +0530</lastBuildDate>
     
-	<atom:link href="https://shubhamnishad97.github.io/shubhamnishad.com/tags/pp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shubhamnishad.com/tags/pp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>second</title>
-      <link>https://shubhamnishad97.github.io/shubhamnishad.com/blog/second/</link>
+      <link>https://shubhamnishad.com/blog/second/</link>
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
-      <guid>https://shubhamnishad97.github.io/shubhamnishad.com/blog/second/</guid>
+      <guid>https://shubhamnishad.com/blog/second/</guid>
       <description> second </description>
     </item>
     
     <item>
       <title>first</title>
-      <link>https://shubhamnishad97.github.io/shubhamnishad.com/about/1/</link>
+      <link>https://shubhamnishad.com/about/1/</link>
       <pubDate>Sat, 24 Jun 2017 12:42:12 +0530</pubDate>
       
-      <guid>https://shubhamnishad97.github.io/shubhamnishad.com/about/1/</guid>
+      <guid>https://shubhamnishad.com/about/1/</guid>
       <description> ab1 </description>
     </item>
     
     <item>
       <title>first</title>
-      <link>https://shubhamnishad97.github.io/shubhamnishad.com/blog/first/</link>
+      <link>https://shubhamnishad.com/blog/first/</link>
       <pubDate>Sat, 24 Jun 2017 12:42:12 +0530</pubDate>
       
-      <guid>https://shubhamnishad97.github.io/shubhamnishad.com/blog/first/</guid>
+      <guid>https://shubhamnishad.com/blog/first/</guid>
       <description> yo this is demo piece </description>
     </item>
     
     <item>
       <title>second</title>
-      <link>https://shubhamnishad97.github.io/shubhamnishad.com/about/2/</link>
+      <link>https://shubhamnishad.com/about/2/</link>
       <pubDate>Sat, 24 Jun 2017 12:42:12 +0530</pubDate>
       
-      <guid>https://shubhamnishad97.github.io/shubhamnishad.com/about/2/</guid>
+      <guid>https://shubhamnishad.com/about/2/</guid>
       <description> 2 </description>
     </item>
     
