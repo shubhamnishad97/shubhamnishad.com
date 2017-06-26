@@ -89,6 +89,49 @@
                 <a href="{{.URL}}" class="block caps h5 py1 abe-primary">{{ .Name }}</a>
             {{end}}
           {{end}}
+          {{ with .Site.Social }}
+        <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+          {{ with .github }}
+              <li class="mr2">
+                <a href="https://github.com/{{ . }}" class="inline-block">
+                    
+                    <i class="fa fa-github fa-2x"></i>        
+                </a>
+              </li>
+          {{ end }}
+          {{ with .twitter }}
+              <li class="mr2">
+                <a href="https://twitter.com/{{ . }}" class="inline-block">
+                    <i class="fa fa-twitter fa-2x"></i>        
+                </a>
+              </li>
+          {{ end }}
+          {{ with .facebook }}
+              <li class="mr2">
+                <a href="https://facebook.com/{{ . }}" class="inline-block">
+                   
+                    <i class="fa fa-facebook fa-2x"></i>        
+                </a>
+              </li>
+          {{ end }}
+          {{ with .angellist }}
+              <li class="mr2">
+                <a href="https://angel.co/{{ . }}" class="inline-block">
+                    
+                    <i class="fa  fa-angellist fa-2x"></i>        
+                </a>
+              </li>
+          {{ end }}
+          {{ with .linkedin }}
+              <li class="mr2">
+                <a href="https://www.linkedin.com/in/{{ . }}" class="inline-block">
+                    
+                    <i class="fa fa-linkedin fa-2x"></i>        
+                </a>
+              </li>
+          {{ end }}  
+        </ul>
+        {{ end }}
         </nav>
     </amp-sidebar>
     <!-- End Sidebar -->
