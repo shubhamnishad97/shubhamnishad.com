@@ -9,8 +9,8 @@ publishDir = "docs"
 SectionPagesMenu = "main"
 
 [params]
-  description = "Computer Science student, learner, reader." #optional
-  googleanalytics = "Your Tracking Id" # optional
+  description = "Computer Science student,learner,reader." #optional
+  googleanalytics = "UA-101629128-1" # optional
   stylesheet = ["font-awesome.min.css"]
 
 # optional
