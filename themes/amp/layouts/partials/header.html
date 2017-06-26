@@ -2,6 +2,7 @@
 <html ⚡>
 
 <head>
+    <meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ if gt $index 0 }},{{ end }}{{ . }}{{ else }}{{ .Site.Params.defaultKeywords }}{{ end }}">
     {{ range .Site.Params.stylesheet }}
     <link href="/font-awesome/css/{{ . }}" rel="stylesheet" type="text/css" />{{ end }}
     <meta charset="utf-8">

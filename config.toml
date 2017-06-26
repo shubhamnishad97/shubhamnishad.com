@@ -12,6 +12,7 @@ SectionPagesMenu = "main"
   description = "I'm a Computer Science student,Learner,Reader and upcoming Software Engineer"
   googleanalytics = "UA-101629128-1" # optional
   stylesheet = ["font-awesome.min.css"]
+  defaultKeywords = "software,computer,it,software engineer,shubham nishad,shubhamnishad,blog,student,internship,job,technology"
 
 # optional
 [social]
