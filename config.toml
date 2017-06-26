@@ -1,4 +1,4 @@
-baseURL = "https://shubhamnishad97.github.io/shubhamnishad.com/"
+baseURL = "https://shubhamnishad.com"
 languageCode = "en-us"
 title = "ShubhamNishad"
 theme="amp"
@@ -9,7 +9,7 @@ publishDir = "docs"
 SectionPagesMenu = "main"
 
 [params]
-  description = "Hey! It's my personal site" #optional
+  description = "Computer Science student, learner, reader." #optional
   googleanalytics = "Your Tracking Id" # optional
   stylesheet = ["font-awesome.min.css"]
 
