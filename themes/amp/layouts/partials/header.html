@@ -4,9 +4,7 @@
 <head>
     <meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ if gt $index 0 }},{{ end }}{{ . }}{{ else }}{{ .Site.Params.defaultKeywords }}{{ end }}">
     <meta name="description" content="{{ if eq  .Summary  .Description }}{{ .Description }}{{ else }}{{ with .Summary }}{{.}} {{ end }}{{ .Description }}{{ end }}">
-    {{ range .Site.Params.stylesheet }}
-    <link href="/font-awesome/css/{{ . }}" rel="stylesheet" type="text/css" />{{ end }}
-    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="canonical" href="{{ .Permalink }}" />
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
