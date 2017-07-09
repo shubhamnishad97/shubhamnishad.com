@@ -1,78 +1,454 @@
-{{ partial "header.html" . }}
-    <header class="www-header">
-        <h1 class="mb4 px2 col-12 sm-col-8 mx-auto">{{ .Title }}</h1>
-        <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto">{{ .Page.Params.description }}</span>
-        {{ with .Site.Social }}
-        <ul class="ampstart-social-follow list-reset flex items-center flex-wrap m0 mb4 px2 col-12 sm-col-8 mx-auto">
-          {{ with .github }}
-              <li class="mr2">
-                <a href="https://github.com/{{ . }}" class="inline-block">
-                    
-                    <i class="fa fa-github"></i>        
-                </a>
-              </li>
-          {{ end }}
-          {{ with .twitter }}
-              <li class="mr2">
-                <a href="https://twitter.com/{{ . }}" class="inline-block">
-                    <i class="fa fa-twitter"></i>        
-                </a>
-              </li>
-          {{ end }}
-          {{ with .facebook }}
-              <li class="mr2">
-                <a href="https://facebook.com/{{ . }}" class="inline-block">
-                   
-                    <i class="fa fa-facebook"></i>        
-                </a>
-              </li>
-          {{ end }}
-          {{ with .angellist }}
-              <li class="mr2">
-                <a href="https://angel.co/{{ . }}" class="inline-block">
-                    
-                    <i class="fa  fa-angellist"></i>        
-                </a>
-              </li>
-          {{ end }}
-          {{ with .linkedin }}
-              <li class="mr2">
-                <a href="https://www.linkedin.com/in/{{ . }}" class="inline-block">
-                    
-                    <i class="fa fa-linkedin"></i>        
-                </a>
-              </li>
-          {{ end }}  
-        </ul>
-        {{ end }}
-        </header>
-    <amp-selector layout="container">
-        <main class="flex pl2">
-<!--
-            <aside class="www-components-sec-nav col-2 xs-hide sm-hide relative">
-                <ul class="www-component-anchors list-reset m0 pt0 pb3 px1 caps">
-                    <li class="clearfix mb3"><a href="/#introduction" class="www-component-anchor text-decoration-none left" option="">Introduction</a></li>
-                    <li class="clearfix mb3"><a href="/#components" class="www-component-anchor text-decoration-none left" option="">Components</a></li>
-                    <li class="clearfix mb3"><a href="/#advanced" class="www-component-anchor text-decoration-none left" option="">Advanced</a></li>
-                    <li class="clearfix mb3"><a href="/#samples_templates" class="www-component-anchor text-decoration-none left" option="">Samples &amp; Templates</a></li>
-                </ul>
-            </aside>
--->
-            <article class="www-components flex-auto col-8">
-                <section class="www-component-desc" id="samples_templates">
-<!--
-                    <h2 class="www-heading pb4 mb2 relative">Samples &amp; Templates</h2>
-                    <div class="mb4">
-                        <p>Templates and metadata samples for different kinds of AMPs.</p>
-                    </div>
--->
-                    <div class="abe-examples flex flex-wrap">
-                      {{- range .Data.Pages }}
-                        {{ .Render "li" }}
-                      {{- end }}
-                    </div>
-                </section>
-            </article>
-        </main>
-    </amp-selector>
-{{ partial "footer.html" . }}
+<!DOCTYPE html>
+
+<html class=" js " lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   <!--- basic page needs
+   ================================================== -->
+   
+  <title>Shubham Nishad</title>
+  <meta name="description" content="I&#39;m a Computer Science student,Learner,Reader and upcoming Software Engineer">  
+  <meta name="author" content="Shubham Nishad">
+
+   <!-- mobile specific metas
+   ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="../../about/base.css">  
+   <link rel="stylesheet" href="../../about/main.css">
+   <link rel="stylesheet" href="../../about/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+  <script src="../../about/modernizr.js.download"></script>
+  <script src="../../about/pace.min.js.download"></script>
+
+   <!-- favicons
+  ================================================== -->
+  <link rel="icon" type="image/png" href="../../favicon.png">
+
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+
+<body id="top" class="  pace-done"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+
+  <!-- header 
+   ================================================== -->
+   <header>     
+    <div class="row">  
+    </div> <!-- /row -->    
+   </header> <!-- /header -->
+
+  <!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+    <div class="intro-overlay"></div> 
+
+    <div class="intro-content">
+      <div class="row">
+
+        <div class="col-twelve">
+
+          <h5>Hello, World.</h5>
+          <h1 style="font-size: 84px;">I'm Shubham Nishad.</h1>
+
+          <p class="intro-position">
+            <span>Student in Computer Science</span>
+            <span>Budding Software Engineer</span>
+          </p>
+          <a class="button stroke smoothscroll" href="https://shubhamnishad.com/" target="_blank" title="">Home</a>
+          <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+            <a class="button stroke smoothscroll" href="#resume" title="">Resume</a>
+            <a class="button stroke smoothscroll" href="#projects" title="">Projects</a>  
+            <a class="button stroke smoothscroll" href="https://shubhamnishad.com/blog"  target="_blank" title="">Blog</a>   
+
+        </div>  
+        
+      </div>          
+    </div> <!-- /intro-content --> 
+
+    <ul class="intro-social">
+        <li><a href="https://github.com/shubhamnishad97"><i class="fa fa-github"></i></a></li>    <li><a href="https://twitter.com/shubhamnishad97"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="https://www.facebook.com/shubham.nishad.97"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://angel.co/shubhamnishad97"><i class="fa fa-angellist"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/shubham-nishad-3b401a129"><i class="fa fa-linkedin"></i></a></li>
+         
+      </ul> <!-- /intro-social -->        
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+    <div class="row section-intro">
+      <div class="col-twelve">
+        <h2>About Me</h2>
+      
+        <div class="intro-info">
+          <img src="../../about/profile-pic.jpg" alt="Profile Picture">
+
+          <p class="lead">
+            Hey there! I'm Shubham, a student in Computer Science.
+          I'm currently looking for internship opportunities in Software Engineering.
+          
+            <br>
+            Thanks for checking out my page! I hope you like it!
+          </p>
+          <br>
+        </div>        
+
+      </div>      
+    </div> <!-- /section-intro -->
+
+    <div class="row about-content">
+
+      <div class="col-six tab-full">
+
+        <h3>Profile</h3>
+
+        <ul class="info-list">
+          <li>
+            <strong> Fullname </strong>
+            <span> Shubham Nishad </span>
+          </li>
+          <li>
+            <strong> Birth Date </strong>
+            <span> 28 March, 1997 </span>
+          </li>
+          <li>
+            <strong> Qualifications </strong>
+            <span>
+            <ul>
+              
+              <li> Bachelors in Information Technology </li>
+              <li> Software Developer </li>
+            </ul>
+          </span>
+          </li>
+          <li>
+            <strong> Hobbies </strong>
+            <span>
+              <ul>
+                <li> Investigating Tech </li>
+                <li> Football (Manchester United) </li>
+                <li> Surfing Internet </li>
+              </ul>
+            </span>
+          </li>
+      </ul></div>
+
+      <div class="col-six tab-full">
+        <h3>Top Skills</h3>
+      <ul class="skill-bars">
+        <li>
+            <div class="progress percent80"><span>Advanced</span></div>
+            <strong> Front-End </strong>
+          </li>
+          <li>
+            <div class="progress percent75"><span>Intermediate</span></div>
+            <strong> Django </strong>
+          </li>
+        <li>
+            <div class="progress percent75"><span>Intermediate</span></div>
+            <strong> Android </strong>
+          </li>
+        <li>
+            <div class="progress percent60"><span>Intermediate</span></div>
+            <strong> SQL </strong>
+          </li>
+        <li>
+            <div class="progress percent45"><span>Beginner</span></div>
+            <strong> Linux </strong>
+        </li>
+          <li>
+            <div class="progress percent65"><span>Intermediate</span></div>
+            <strong> Hugo </strong>
+          </li>      
+          
+      </ul> <!-- /skill-bars -->    
+      </div>
+    </div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+  <section id="resume" class="grey-section">
+
+    <div class="row section-intro">
+      <div class="col-twelve">
+        <h1>More of my credentials.</h1>
+      </div>      
+    </div> <!-- /section-intro--> 
+
+    <div class="row resume-timeline">
+
+      <div class="col-twelve resume-header" id="projects">
+
+        <h2>My Personal Projects</h2>
+
+      </div> <!-- /resume-header -->
+
+      <div class="col-twelve">
+
+        <div class="timeline-wrap">
+
+          <div class="timeline-block">
+
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
+            </div>
+
+            <div class="timeline-header">
+              <h3>ScanBarcode & QR code App and QR code generator extension.</h3>
+              <p>June 2017 - July 2017</p>
+            <h4> Technologies used </h4>
+            Android,Java,HTML,CSS,jQuery
+            </div>
+
+            <div class="timeline-content">
+              <h4> <a href="#">Android App</a> </h4>
+              <ul>
+              <li> Designed a simple and intuitive layout for ease of usage.</li>
+              <li> Implemented SQLite database to store, retreive and delete scanned codes</li>
+              <li> Implemented Zxing library for barcode scanning.It is the most fastest and stable solution.</li>
+              <li> Designed a share button for easy exchange of codes between users.</li>
+              <li> Adhered to good coding practices such as code reviews and version control to develop production-ready code. </li>
+              <li><a href="https://github.com/shubhamnishad97/ScanBarcode-QRcode">source code</a></li>
+            </ul>
+            <h4> <a href="#">Chrome Extension</a> </h4>
+              <ul>
+              <li> Implemented the generation using jQuery and its <a href="https://github.com/jeromeetienne/jquery-qrcode">jquery.qrcode plugin.</a></li>
+              <li> Added option to save the generated code as image on local machine.</li>
+              
+              <li><a href="https://github.com/shubhamnishad97/QR-Code-Generator">source code</a></li>
+            </ul>
+            </div>
+
+          </div> <!-- /timeline-block -->
+
+          <div class="timeline-block">
+
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
+            </div>
+
+            <div class="timeline-header">
+              <h3>Personal Website</h3>
+              <p>July 2017 - Present </p>
+              <h4> Technologies used </h4>
+             Hugo,HTML+CSS,Markdown,Cloudfare CDN,Git,Github Pages.
+
+            <br>            
+
+            </div>
+
+            <div class="timeline-content">
+              <h4> shubhamnishad.com </h4>
+              <ul>
+                <li> Developed static pages using Hugo to make access faster.</li>
+              <li> Hosted the site on Github Pages and used custom domain along with Cloudfare CDN </li>
+              <li> Implemented different sections for easy access to things related to me.</li>
+              <li>Used the in-built Go template library to customize the logic of the site</li>
+              <li><a href="https://github.com/shubhamnishad97/shubhamnishad.com">source code</a></li>
+
+            </ul>
+            </div>
+
+          </div> <!-- /timeline-block -->
+
+          <div class="timeline-block">
+
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
+            </div>
+
+            <div class="timeline-header">
+              <h3> Django Website </h3>
+              <p> March 2016 - May 2016</p>
+              <h4> Technologies used </h4>
+            Django,HTML+CSS,SQLite, jQuery,Github,pythonanywhere.com 
+            
+            </div>
+
+            <div class="timeline-content">
+              <h4> Toki - keep a note </h4>
+              <ul>
+                <li>Added a markdown editor with live preview using Django-pagedown.You dont need to know markdown, the editor will help you.</li>
+                <li>User can Rename, Save, Update, Delete notes</li>
+                <li>Implemented various tables in RDBMS using Django ORM.</li>
+                <li>Added user login,signout and profile sections using various django packages</li>
+                <li>made the site fully responsive with the help of bootstrap and testing.</li>
+                <li><a href="http://shubhamnishad97.pythonanywhere.com/">Live Site</a></li>
+              </ul>
+            </div>
+
+          </div> <!-- /timeline-block -->
+
+        </div> <!-- /timeline-wrap -->        
+
+      </div> <!-- /col-twelve -->
+      
+    </div> <!-- /resume-timeline -->
+    
+    <div class="row resume-timeline">
+
+      <div class="col-twelve resume-header">
+
+        <h2>Education</h2>
+
+      </div> <!-- /resume-header -->
+
+      <div class="col-twelve">
+
+        <div class="timeline-wrap">
+
+          <div class="timeline-block">
+
+            <div class="timeline-ico">
+              <i class="fa fa-graduation-cap"></i>
+            </div>
+
+            <div class="timeline-header">
+              <h3>Bachelors Degree</h3>
+              <p> Information Technology <br>
+              July 2015 - May 2019</p>
+              <h4><!-- gpa--> </h4>
+            </div>
+
+            <div class="timeline-content">
+              <h4> University of Mumbai </h4>
+              <b> Relevant Courses </b> 
+              <ul>
+              <li> Data Structure and Files </li>
+              <li> Operating Systems </li>
+              <li> Distributed Computing </li>
+              <li> Database Management System </li>
+              <li> Advanced Database Management Systems </li>
+              <li> Computer Networks </li>
+              <li> Discrete Structure and Graph Theory </li>
+              <li> Object-oriented Software Engineering </li>
+              <li> Data Warehouse and Mining </li>
+              <li> Human Computer Interaction </li>             
+              <li> Computer Graphics </li>
+              </ul>
+            </div>
+
+          </div> <!-- /timeline-block -->
+
+        </div> <!-- /timeline-wrap -->        
+
+
+      </div> <!-- /col-twelve -->
+    <div class="row button-section">
+      <div class="col-twelve">
+        <a href="#" title="Download Resume" class="button button-primary">Download Resume</a>
+      </div>      
+    </div>
+      
+    </div> <!-- /resume-timeline -->
+    
+  </section> <!-- /features -->
+
+    
+   <!-- contact
+   ================================================== -->
+  <section id="contact">
+
+    <div class="row section-intro">
+      <div class="col-twelve">
+
+        <h5>Contact</h5>
+        <h1>I'd Love To Hear From You.</h1>
+      </div> 
+    </div> <!-- /section-intro -->
+
+
+    <div class="row contact-info">
+
+      <div class="col-four tab-full">
+
+        <div class="icon">
+          <i class="icon-pin"></i>
+        </div>
+
+        <h5>Where to find me</h5>
+
+        <p>
+            Internet is my home.<br>
+            I'm always on Twitter<br>
+            Then Email
+            </p>
+
+      </div>
+
+      <div class="col-four tab-full collapse">
+
+        <div class="icon">
+          <i class="icon-mail"></i>
+        </div>
+
+        <h5>Email Me At</h5>
+
+        <p>shubhamnishad28@gmail.com</p>
+
+      </div>
+
+      <div class="col-four tab-full">
+
+        <div class="icon">
+          <i class="icon-phone"></i>
+        </div>
+
+        <h5>Call Me At</h5>
+
+        <p>No Dont do that<br>
+         </p>
+
+      </div>
+      
+    </div> <!-- /contact-info -->
+    
+  </section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+      <div class="row">
+          <div class="col-eight tab-full  social">
+
+          <ul class="footer-social">        
+            <li><a href="https://github.com/shubhamnishad97"><i class="fa fa-github"></i></a></li>    <li><a href="https://twitter.com/shubhamnishad97"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="https://www.facebook.com/shubham.nishad.97"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://angel.co/shubhamnishad97"><i class="fa fa-angellist"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/shubham-nishad-3b401a129"><i class="fa fa-linkedin"></i></a></li>
+         </ul> 
+            
+        </div>
+
+              
+      </div>
+   </footer>  
+
+   <div id="preloader" style="display: none;"> 
+      <div id="loader" style="display: none;"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="../../about/jquery-2.1.3.min.js.download"></script>
+   <script src="../../about/plugins.js.download"></script>
+   <script src="../../about/main.js.download"></script>
+
+
+
+
+</body></html>
