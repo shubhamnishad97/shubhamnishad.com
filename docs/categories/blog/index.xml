@@ -18,16 +18,9 @@
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
       <guid>https://shubhamnishad.com/blog/second/</guid>
-      <description> second </description>
-    </item>
-    
-    <item>
-      <title>first</title>
-      <link>https://shubhamnishad.com/blog/first/</link>
-      <pubDate>Sat, 24 Jun 2017 12:42:12 +0530</pubDate>
-      
-      <guid>https://shubhamnishad.com/blog/first/</guid>
-      <description>yo this is demo piece Almost everything we do creates waste, and as a society we are currently producing more waste than ever before. From construction of buildings to driving a car, everything has a waste product associated with it, which over time, we have learnt to deal with, effectively and efficiently. We are very well aware about the waste management schemes applicable in various areas. But, there’s is this one thought that passed my mind the other day when I was just randomly browsing the web -</description>
+      <description>QR-Code-Generator Generate fast and simple QR codes for sharing. Download the extension here
+Although this a chrome extension but a web version using the same code is hosted on Github Pages for a quick look. https://shubhamnishad97.github.io/QR-Code-Generator/
+I wanted to learn to make extensions from the first time I used one. This extension acted as the perfect idea and hence it was born. This is one part of my QRCode sharing project.</description>
     </item>
     
   </channel>
