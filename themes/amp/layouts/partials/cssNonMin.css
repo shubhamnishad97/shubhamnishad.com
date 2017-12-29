@@ -2139,7 +2139,7 @@ body {
     background: #fff;
     color: #4a4a4a;
     line-height: 1.5rem;
-    font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif;
+    font-family: Roboto,sans-serif;
     min-width: 315px;
     overflow-x: hidden;
     font-smooth: always;
@@ -2294,7 +2294,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Inconsolata, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif
+    font-family: Roboto,sans-serif
 }
 
 .ampstart-headerbar-nav .ampstart-nav-item {
@@ -2486,7 +2486,7 @@ body .www-component-anchors .www-component-anchor[option][selected] {
 }
 
 body {
-    font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif
+    font-family: Roboto, sans-serif
 }
 
 a.abe-primary {
@@ -2815,7 +2815,7 @@ amp-instagram {
 .www-component-desc pre,
 code,
 pre {
-    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, sans-serif;
+    font-family:  monospace, sans-serif;
     font-size: .9rem;
     white-space: pre-wrap
 }
@@ -2926,8 +2926,4 @@ code {
 .abe-preview>p,
 .abe-preview>section {
     padding: 1rem
-}
-
-h1 {
-    color: red
 }

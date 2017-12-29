@@ -17,17 +17,20 @@ Although this a chrome extension but a web version using the same code is hosted
 I wanted to learn to make extensions from the first time I used one. This extension acted as the perfect idea and hence it was born.
 This is one part of my QRCode sharing project. The other part is located [here](https://github.com/shubhamnishad97/ScanBarcode-QRcode).
 
+
 ## Features:
 
 *   Standalone QRcode generation (doesn't depend on external services). 
 *   Option to save the generated code as image on local machine.
 *   Simple and Intuitive design.
 
+
 ## Resources/Packages used
 
 - [jQuery](https://jquery.com/)
 - [jquery.qrcode plugin](https://github.com/jeromeetienne/jquery-qrcode) by [jeromeetienne](https://github.com/jeromeetienne)
 - [sakura-css](https://github.com/oxalorg/sakura): a minimal css framework
+
 
 ## How to run the project
 Download the extension [here](https://github.com/shubhamnishad97/QR-Code-Generator/raw/master/QR%20Code%20Generator.crx)
@@ -40,6 +43,8 @@ OR
 
 Download or clone the repo and use the `index.html` file.
 
+<br>
+
 ## Todo
 
 - publishing on the chrome store
@@ -48,3 +53,4 @@ Download or clone the repo and use the `index.html` file.
 
 
 ## License [MIT](https://github.com/shubhamnishad97/QR-Code-Generator/blob/master/LICENSE)
+<br>
