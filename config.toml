@@ -9,7 +9,7 @@ publishDir = "docs"
 SectionPagesMenu = "main"
 
 [params]
-  description = "I'm a Computer Science student,Learner,Reader and upcoming Software Engineer"
+  description = "I'm a Computer Science student, Learner, Reader and upcoming Software Engineer"
   defaultKeywords = "software,computer,it,software engineer,shubham nishad,shubhamnishad,blog,student,internship,job,technology"
 
 # optional

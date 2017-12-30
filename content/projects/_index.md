@@ -3,7 +3,7 @@ categories = []
 
 tags = []
 title = "Projects"
-description = "my personal projects"
+description = "come, check my skills"
 Keywords = ["Static WebSite Engine","Hugo","GoHugo","SEO"]
 
 +++

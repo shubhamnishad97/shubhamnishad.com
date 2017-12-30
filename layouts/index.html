@@ -6,7 +6,7 @@
         <ul class="ampstart-social-follow list-reset flex items-center flex-wrap m0 mb4 px2 col-12 sm-col-8 mx-auto">
           {{ with .github }}
               <li class="mr2">
-                <a href="https://github.com/{{ . }}" class="inline-block">
+                <a aria-label="github profile" href="https://github.com/{{ . }}" class="inline-block">
                     
                     <i class="fa fa-github"></i>        
                 </a>
@@ -14,14 +14,14 @@
           {{ end }}
           {{ with .twitter }}
               <li class="mr2">
-                <a href="https://twitter.com/{{ . }}" class="inline-block">
+                <a aria-label="twitter profile" href="https://twitter.com/{{ . }}" class="inline-block">
                     <i class="fa fa-twitter"></i>        
                 </a>
               </li>
           {{ end }}
           {{ with .facebook }}
               <li class="mr2">
-                <a href="https://facebook.com/{{ . }}" class="inline-block">
+                <a aria-label="facebook profile" href="https://facebook.com/{{ . }}" class="inline-block">
                    
                     <i class="fa fa-facebook"></i>        
                 </a>
@@ -29,7 +29,7 @@
           {{ end }}
           {{ with .angellist }}
               <li class="mr2">
-                <a href="https://angel.co/{{ . }}" class="inline-block">
+                <a aria-label="angellist profile" href="https://angel.co/{{ . }}" class="inline-block">
                     
                     <i class="fa  fa-angellist"></i>        
                 </a>
@@ -37,7 +37,7 @@
           {{ end }}
           {{ with .linkedin }}
               <li class="mr2">
-                <a href="https://www.linkedin.com/in/{{ . }}" class="inline-block">
+                <a aria-label="linkedin profile" href="https://www.linkedin.com/in/{{ . }}" class="inline-block">
                     
                     <i class="fa fa-linkedin"></i>        
                 </a>
