@@ -1,7 +1,7 @@
 +++
 categories = ["projects"]
 date = "2017-06-24T14:42:12+05:30"
-tags = [""]
+tags = ["Django"]
 title = "Toki-keep a note"
 Keywords = ["Static WebSite Engine","Hugo","GoHugo","SEO"]
 

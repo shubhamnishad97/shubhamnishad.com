@@ -23,6 +23,19 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>QR Code Generator</title>
+      <link>https://shubhamnishad.com/projects/qrgenerator/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/qrgenerator/</guid>
+      <description>QR Code Generator Generate fast and simple QR codes for sharing. Download the extension here
+
+Although this a chrome extension but a web version using the same code is hosted on Github Pages for a quick look. https://shubhamnishad97.github.io/QR-Code-Generator/
+
+I wanted to learn to make extensions from the first time I used one. This extension acted as the perfect idea and hence it was born. This is one part of my QRCode sharing project.</description>
+    </item>
+    
+    <item>
       <title>Toki-keep a note</title>
       <link>https://shubhamnishad.com/projects/toki/</link>
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
@@ -32,6 +45,19 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
 
 Toki is a simple note taking Django project. It was developed to act as a Hands-on and to increase my experience with a MVC framework(MTV as in the case of Django).
 I was interested in Django from the first time I searched about and after a little investigation I choose Django as the base for this project.</description>
+    </item>
+    
+    <item>
+      <title>URL Shortener</title>
+      <link>https://shubhamnishad.com/projects/urlshortener/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/urlshortener/</guid>
+      <description>URL-Shortener A simple and easy to use web app built using Django. Simply give the url you want reduced and get the new shortened url based on base62 encoding. Wanna try this app? Visit: http://shly.pythonanywhere.com/
+
+I developed this app after watching this video by Tushar Roy about tiny url. I wanted my own solution and was also interested in particle.js hence this project was born.
+
+Features:  Url shortening using Base62 encoding.</description>
     </item>
     
     <item>

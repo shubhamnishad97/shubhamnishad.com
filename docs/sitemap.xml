@@ -13,7 +13,17 @@
   </url>
   
   <url>
+    <loc>https://shubhamnishad.com/projects/qrgenerator/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shubhamnishad.com/projects/toki/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/projects/urlshortener/</loc>
     <lastmod>2017-06-24T14:42:12+05:30</lastmod>
   </url>
   
@@ -23,13 +33,13 @@
   </url>
   
   <url>
-    <loc>https://shubhamnishad.com/tags/</loc>
-    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
-    <priority>0</priority>
+    <loc>https://shubhamnishad.com/about/</loc>
   </url>
   
   <url>
-    <loc>https://shubhamnishad.com/about/</loc>
+    <loc>https://shubhamnishad.com/tags/base62/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -45,6 +55,24 @@
   
   <url>
     <loc>https://shubhamnishad.com/categories/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/tags/chrome/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/tags/django/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/tags/jquery/</loc>
     <lastmod>2017-06-24T14:42:12+05:30</lastmod>
     <priority>0</priority>
   </url>
