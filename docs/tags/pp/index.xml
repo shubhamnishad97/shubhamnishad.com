@@ -23,23 +23,5 @@ Although this a chrome extension but a web version using the same code is hosted
 I wanted to learn to make extensions from the first time I used one. This extension acted as the perfect idea and hence it was born. This is one part of my QRCode sharing project.</description>
     </item>
     
-    <item>
-      <title>first</title>
-      <link>https://shubhamnishad.com/about/1/</link>
-      <pubDate>Sat, 24 Jun 2017 12:42:12 +0530</pubDate>
-      
-      <guid>https://shubhamnishad.com/about/1/</guid>
-      <description> ab1 </description>
-    </item>
-    
-    <item>
-      <title>second</title>
-      <link>https://shubhamnishad.com/about/2/</link>
-      <pubDate>Sat, 24 Jun 2017 12:42:12 +0530</pubDate>
-      
-      <guid>https://shubhamnishad.com/about/2/</guid>
-      <description> 2 </description>
-    </item>
-    
   </channel>
 </rss>
