@@ -4,7 +4,7 @@ date = "2017-06-24T14:42:12+05:30"
 tags = ["jQuery","Chrome"]
 title = "QR Code Generator"
 Keywords = ["Static WebSite Engine","Hugo","GoHugo","SEO"]
-
+short = "Generate fast and simple QR codes for sharing with this chrome extension along with option to save the generated qrcode as image."
 +++
 
 <img src="icon144.png" width="144">
@@ -25,7 +25,7 @@ This is one part of my QRCode sharing project. The other part is located [here](
 
 ### Features:
 *   Standalone QRcode generation (doesn't depend on external services). 
-*   Option to save the generated code as image on local machine.
+*   Option to save the generated qrcode as image on local machine.
 *   Simple and Intuitive design.
 
 <img src="Capture.PNG">      <img src="name.PNG">

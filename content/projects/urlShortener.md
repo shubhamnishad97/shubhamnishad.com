@@ -4,7 +4,7 @@ date = "2017-06-24T14:42:12+05:30"
 tags = ["Django","base62"]
 title = "URL Shortener"
 Keywords = ["Static WebSite Engine","Hugo","GoHugo","SEO"]
-
+short= "A simple and easy to use web app built using Django. Based on base62 encoding. REST API for retrieving data easily."
 +++
 
 <br>

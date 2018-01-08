@@ -4,7 +4,7 @@ date = "2017-06-24T14:42:12+05:30"
 tags = ["Django"]
 title = "Toki-keep a note"
 Keywords = ["Static WebSite Engine","Hugo","GoHugo","SEO"]
-
+short= "Toki is a simple note taking Django project. It was developed to act as a Hands-on and to increase my experience with a MVC framework"
 +++
 # toki-keep-a-note
 
