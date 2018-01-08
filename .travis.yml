@@ -1,10 +1,18 @@
-language: go
 
-go:
-  - master # This uses automatically the latest version of go
-
+# Clean and don't fail
 install:
-  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
+  - rm -rf public || exit 0
 
+# Build the website
 script:
-  - hugo # This commands builds your website on travis
+  - /bin/hugo
+
+# Deploy to GitHub pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: docs
+  fqdn: shubhamnishad.com
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master
