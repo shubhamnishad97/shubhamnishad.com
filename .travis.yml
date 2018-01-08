@@ -10,10 +10,8 @@ install:
 install:
   - rm -rf docs || exit 0
 
-# Build the website
 script:
-  - ls
-  - hugo
+  - hugo # This commands builds your website on travis
 
 # Deploy to GitHub pages
 deploy:
