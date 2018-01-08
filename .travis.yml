@@ -5,6 +5,7 @@ install:
 
 # Build the website
 script:
+  - ls
   - /bin/hugo
 
 # Deploy to GitHub pages
