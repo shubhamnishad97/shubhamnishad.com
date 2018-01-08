@@ -1,12 +1,19 @@
+language: go
+
+go:
+  - master # This uses automatically the latest version of go
+
+install:
+  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
 
 # Clean and don't fail
 install:
-  - rm -rf public || exit 0
+  - rm -rf docs || exit 0
 
 # Build the website
 script:
   - ls
-  - bin/hugo
+  - hugo
 
 # Deploy to GitHub pages
 deploy:
