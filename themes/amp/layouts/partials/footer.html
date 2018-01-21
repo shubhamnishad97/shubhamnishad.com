@@ -5,6 +5,27 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <footer class="ampstart-footer flex flex-column items-center pxy3">
+        <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+              {{ if .HasChildren }}
+                <li class="mr2"><a href="/" class="text-decoration-none block">{{ .Name }}</a>
+                <div class="abe-list-container">
+                    <div class="abe-list-shadow"></div>
+                    <ul class="list-reset m0 p0">
+                      {{ range .Children }}
+                        <li><a href="{{.URL}}">{{ .Name }}</a></li>
+                      {{end}}
+                    </ul>
+                </div>
+                </li>
+              {{else}}
+                <li class="mr2"><a href="{{.URL}}" class="text-decoration-none inline-block">{{ .Name }}</a></li>
+              {{end}}
+            {{end}}
+            </ul>
+
+
         {{ with .Site.Social }}
         <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
           {{ with .github }}
