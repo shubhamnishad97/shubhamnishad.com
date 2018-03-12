@@ -13,6 +13,8 @@ script:
 # Deploy to GitHub pages
 deploy:
   provider: pages
+  edge:
+    branch: v1.8.47
   skip_cleanup: true
   local-dir: docs
   fqdn: shubhamnishad.com
