@@ -1,7 +1,11 @@
-# shubhamnishad.com
-
-[![Build Status](https://travis-ci.org/shubhamnishad97/shubhamnishad.com.svg?branch=master)](https://travis-ci.org/shubhamnishad97/badges)
-
++++
+categories = ["projects"]
+date = "2017-06-24T14:42:12+05:30"
+tags = ["Hugo","CSS","SEO"]
+title = "ShubhamNishad.com"
+Keywords = ["Developer Blog","Hugo","github pages","cloudfare cdn","travis ci"]
+short= "Personal Website made using Hugo. Github Pages + Custom Domain + Cloudfare CDN.Continuous Integration and Deployment using Travis CI."
++++
 <br>
 
 I believe every developer (atleast web developer) should have a place on the net to display or showcase his/her work. [shubhamnishad.com](https://shubhamnishad.com) is my place to showcase different projects and to capture my journey and growth as a Software Developer.
@@ -33,9 +37,9 @@ As this a static site, it is less prone to attacks and also does not slow down w
 
 <br>
 ### Screenshots:
-<img src="static/projects/shubhamnishad.com/mainpage.PNG">
-<img src="static/projects/shubhamnishad.com/about.PNG">
-<img src="static/projects/shubhamnishad.com/about1.PNG">
+{{< img src="mainpage.PNG" >}}
+{{< img src="about.PNG" >}}
+{{< img src="about1.PNG" >}}
 
-<img src="static/projects/shubhamnishad.com/aboutmobile.png">
-<img src="static/projects/shubhamnishad.com/navbar.png">
+<img src="aboutmobile.png">
+<img src="navbar.png">
