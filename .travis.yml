@@ -3,13 +3,18 @@ language: go
 go:
   - master # This uses automatically the latest version of go
 
+# using this for snap packages https://docs.travis-ci.com/user/installing-dependencies/#Installing-Snap-Packages
+sudo: true
+dist: trusty
+
 install:
-  - sudo apt-get install hugo
-  #- go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
+  - sudo apt-get --yes install snapd
+  - sudo snap install hugo
   - rm -rf docs || exit 0
 
 script:
-  - hugo # This commands builds your website on travis
+  #- hugo # This commands builds your website on travis
+  - /snap/bin/hugo
 
 # Deploy to GitHub pages
 deploy:
