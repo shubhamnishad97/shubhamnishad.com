@@ -5,7 +5,7 @@ go:
 
 install:
   - sudo apt install snapd
-  - snap install hugo
+  - sudo snap install hugo
   #- go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
   - rm -rf docs || exit 0
 
