@@ -2,7 +2,7 @@
 <html ⚡ lang="en">
 
 <head>
-    <meta name="keywords" content="Static WebSite Engine,Hugo,GoHugo,SEO">
+    <meta name="keywords" content="Django,particles.js,Django Rest Framework,pythonanywhere">
     <meta name="description" content="URL-Shortener A simple and easy to use web app built using Django. Simply give the url you want reduced and get the new shortened url based on base62 encoding. Wanna try this app? Visit: http://shly.pythonanywhere.com/
 
 I developed this app after watching this video by Tushar Roy about tiny url. I wanted my own solution and was also interested in particle.js hence this project was born.
@@ -52,7 +52,7 @@ Features:  Url shortening using Base62 encoding. ">
             
             
               
-                <li class="ampstart-nav-item"><a href="https://shubhamnishad.com/about/" class="text-decoration-none block">About Me</a></li>
+                <li class="ampstart-nav-item"><a href="https://shubhamnishad.com/about/" class="text-decoration-none block">About</a></li>
               
             
               
@@ -77,7 +77,7 @@ Features:  Url shortening using Base62 encoding. ">
           
           
             
-                <a href="https://shubhamnishad.com/about/" class="block caps h5 py1 abe-primary">About Me</a>
+                <a href="https://shubhamnishad.com/about/" class="block caps h5 py1 abe-primary">About</a>
             
           
             
@@ -127,7 +127,7 @@ Features:  Url shortening using Base62 encoding. ">
           
           
               <li class="mr2">
-                <a aria-label="linkedin profile" href="https://www.linkedin.com/in/shubham-nishad-3b401a129" class="inline-block">
+                <a aria-label="linkedin profile" href="https://www.linkedin.com/in/shubhamnishad" class="inline-block">
                     
                     <i class="fa fa-linkedin fa-2x"></i>        
                 </a>
@@ -184,6 +184,7 @@ I wanted my own solution and was also interested in particle.js hence this proje
 
 <ul>
 <li>Url shortening using <a href="https://www.kerstner.at/2012/07/shortening-strings-using-base-62-encoding/">Base62</a> encoding.  (a-zA-Z0-9)</li>
+<li>REST API for retrieving data easily.</li>
 <li>Beautiful background using <a href="http://vincentgarreau.com/particles.js/">particles.js</a></li>
 <li>Fully responsive. use any device and always find the best layout.</li>
 </ul>
@@ -232,10 +233,21 @@ I wanted my own solution and was also interested in particle.js hence this proje
 
 <p><br></p>
 
+<h3 id="how-to-access-the-api">How to access the api</h3>
+
+<p>to shorten url, send POST request to:
+<code>http://yourdomain.com/api/&lt;url to be shortened&gt;/</code></p>
+
+<p>to retrieve url, send GET request to:
+<code>http://yourdomain/api/&lt;shortcode&gt;/</code></p>
+
+<p>you can test api on:
+<a href="http://shly.pythonanywhere.com/api/">http://shly.pythonanywhere.com/api/</a></p>
+
 <h3 id="todo">Todo</h3>
 
 <ul>
-<li>making a REST api for this project.</li>
+<li><del>making a REST api for this project.</del></li>
 <li>suggestions are welcome</li>
 </ul>
 
@@ -255,6 +267,28 @@ I wanted my own solution and was also interested in particle.js hence this proje
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <footer class="ampstart-footer flex flex-column items-center pxy3">
+        <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+            
+            
+              
+                <li class="mr2"><a href="https://shubhamnishad.com/about/" class="text-decoration-none inline-block">About</a></li>
+              
+            
+              
+                <li class="mr2"><a href="https://shubhamnishad.com/blog/" class="text-decoration-none inline-block">Blog</a></li>
+              
+            
+              
+                <li class="mr2"><a href="https://shubhamnishad.com/projects/" class="text-decoration-none inline-block">Projects</a></li>
+              
+            
+              
+                <li class="mr2"><a href="https://shubhamnishad.com/resources/" class="text-decoration-none inline-block">Resources</a></li>
+              
+            
+            </ul>
+
+
         
         <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
           
@@ -290,7 +324,7 @@ I wanted my own solution and was also interested in particle.js hence this proje
           
           
               <li class="mr2">
-                <a aria-label="linkedin profile" href="https://www.linkedin.com/in/shubham-nishad-3b401a129" class="inline-block">
+                <a aria-label="linkedin profile" href="https://www.linkedin.com/in/shubhamnishad" class="inline-block">
                     
                     <i class="fa fa-linkedin fa-2x"></i>        
                 </a>

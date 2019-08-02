@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shubhamnishad.com/blog/first/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://shubhamnishad.com/projects/barcode/</loc>
+    <lastmod>2017-07-09T14:42:12+05:30</lastmod>
   </url>
   
   <url>
@@ -13,7 +13,27 @@
   </url>
   
   <url>
+    <loc>https://shubhamnishad.com/resources/blogs/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/projects/codecheck/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/resources/django-resources/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shubhamnishad.com/projects/qrgenerator/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/projects/shubhamnishad.com/</loc>
     <lastmod>2017-06-24T14:42:12+05:30</lastmod>
   </url>
   
@@ -37,6 +57,18 @@
   </url>
   
   <url>
+    <loc>https://shubhamnishad.com/tags/andriod/</loc>
+    <lastmod>2017-07-09T14:42:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/tags/barcode/</loc>
+    <lastmod>2017-07-09T14:42:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://shubhamnishad.com/tags/base62/</loc>
     <lastmod>2017-06-24T14:42:12+05:30</lastmod>
     <priority>0</priority>
@@ -50,7 +82,13 @@
   
   <url>
     <loc>https://shubhamnishad.com/blog/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/tags/blogs/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -66,8 +104,26 @@
   </url>
   
   <url>
+    <loc>https://shubhamnishad.com/tags/css/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://shubhamnishad.com/tags/django/</loc>
     <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/tags/hugo/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/tags/java/</loc>
+    <lastmod>2017-07-09T14:42:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -85,22 +141,35 @@
   
   <url>
     <loc>https://shubhamnishad.com/categories/projects/</loc>
-    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <lastmod>2017-07-09T14:42:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://shubhamnishad.com/projects/</loc>
+    <lastmod>2017-07-09T14:42:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/categories/resources/</loc>
     <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://shubhamnishad.com/resources/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shubhamnishad.com/tags/seo/</loc>
+    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://shubhamnishad.com/tags/</loc>
-    <lastmod>2017-06-24T14:42:12+05:30</lastmod>
+    <lastmod>2017-07-09T14:42:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   

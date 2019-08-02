@@ -13,6 +13,27 @@
     
     
     <item>
+      <title>CodeCheck</title>
+      <link>https://shubhamnishad.com/projects/codecheck/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/codecheck/</guid>
+      <description> CodeCheck is a Django based online judge made using the Hackerrank API. https://code-check-csi.herokuapp.com/
+
+Features  Supports 54 languages Contests can be hosted Tracks can be added Direct compiler is provided to run any code Keeps tracks of solved questions of user better user stats with leaderboard and charts User friendly and fully responsive  Packages/Platforms used  Django django-allauth django-crispy-forms Heroku Ace Editor  
+</description>
+    </item>
+    
+    <item>
+      <title>Django Resources</title>
+      <link>https://shubhamnishad.com/resources/django-resources/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/resources/django-resources/</guid>
+      <description>Sites  simple is better than complex: this is a place where almost all articles are very detailed and focus on making you a better developer. It has articles regarding various aspects of django from auth to rest api to models etc. Django Official Site: The documentation provided is one of the strengths of Django and the growth of its eco-system. Very detailed use cases are explained in the documentation.</description>
+    </item>
+    
+    <item>
       <title>Toki-keep a note</title>
       <link>https://shubhamnishad.com/projects/toki/</link>
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>

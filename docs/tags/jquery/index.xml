@@ -13,6 +13,18 @@
     
     
     <item>
+      <title>CodeCheck</title>
+      <link>https://shubhamnishad.com/projects/codecheck/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/codecheck/</guid>
+      <description> CodeCheck is a Django based online judge made using the Hackerrank API. https://code-check-csi.herokuapp.com/
+
+Features  Supports 54 languages Contests can be hosted Tracks can be added Direct compiler is provided to run any code Keeps tracks of solved questions of user better user stats with leaderboard and charts User friendly and fully responsive  Packages/Platforms used  Django django-allauth django-crispy-forms Heroku Ace Editor  
+</description>
+    </item>
+    
+    <item>
       <title>QR Code Generator</title>
       <link>https://shubhamnishad.com/projects/qrgenerator/</link>
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>

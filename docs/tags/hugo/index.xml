@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Shubham Nishad</title>
+    <link>https://shubhamnishad.com/tags/hugo/</link>
+    <description>Recent content in Hugo on Shubham Nishad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2018 Copyright Text</copyright>
+    <lastBuildDate>Sat, 24 Jun 2017 14:42:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://shubhamnishad.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ShubhamNishad.com</title>
+      <link>https://shubhamnishad.com/projects/shubhamnishad.com/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/shubhamnishad.com/</guid>
+      <description>I believe every developer (atleast web developer) should have a place on the net to display or showcase his/her work. shubhamnishad.com is my place to showcase different projects and to capture my journey and growth as a Software Developer.
+
+Technologies used in my site  Hugo &amp;ndash; the fastest static site generator made with go. Github Pages for free hosting solution. Cloudfare for acting as CDN and also providing free SSL certificate.</description>
+    </item>
+    
+  </channel>
+</rss>

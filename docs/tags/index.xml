@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2018 Copyright Text</copyright>
-    <lastBuildDate>Sat, 24 Jun 2017 14:42:12 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jul 2017 14:42:12 +0530</lastBuildDate>
     
 	<atom:link href="https://shubhamnishad.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Andriod</title>
+      <link>https://shubhamnishad.com/tags/andriod/</link>
+      <pubDate>Sun, 09 Jul 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/tags/andriod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Barcode</title>
+      <link>https://shubhamnishad.com/tags/barcode/</link>
+      <pubDate>Sun, 09 Jul 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/tags/barcode/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Base62</title>
@@ -18,6 +36,15 @@
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
       <guid>https://shubhamnishad.com/tags/base62/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blogs</title>
+      <link>https://shubhamnishad.com/tags/blogs/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/tags/blogs/</guid>
       <description></description>
     </item>
     
@@ -31,11 +58,38 @@
     </item>
     
     <item>
+      <title>Css</title>
+      <link>https://shubhamnishad.com/tags/css/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Django</title>
       <link>https://shubhamnishad.com/tags/django/</link>
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
       <guid>https://shubhamnishad.com/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://shubhamnishad.com/tags/hugo/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://shubhamnishad.com/tags/java/</link>
+      <pubDate>Sun, 09 Jul 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/tags/java/</guid>
       <description></description>
     </item>
     
@@ -54,6 +108,15 @@
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
       <guid>https://shubhamnishad.com/tags/pp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seo</title>
+      <link>https://shubhamnishad.com/tags/seo/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/tags/seo/</guid>
       <description></description>
     </item>
     
