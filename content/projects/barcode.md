@@ -7,7 +7,7 @@ Keywords = ["scan barcode","andriod","free scanner","simple andriod scanner"]
 short = "Scan Barcode & QR code is a simple and fast code scanner with all the features a modern android app."
 +++
 
-
+<img src="icon.png" width="144">
 <h2>Scan Barcode &amp; QR code is a simple and fast code scanner with all the features a modern android app.</h2>
 
 <img src="PhoneScreenshot1.jpg" width="250">  <img src="PhoneScreenshot2.jpg" width="250">  <img src="PhoneScreenshot3.jpg" width="250">  <img src="PhoneScreenshot4.jpg" width="250">  <img src="PhoneScreenshot5.jpg" width="250">  <img src="PhoneScreenshot6.jpg" width="250">
