@@ -6,14 +6,14 @@
     <description>Recent content in Tags on Shubham Nishad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2018 Copyright Text</copyright>
+    <copyright>© 2019 Copyright Text</copyright>
     <lastBuildDate>Sun, 09 Jul 2017 14:42:12 +0530</lastBuildDate>
     
 	<atom:link href="https://shubhamnishad.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Andriod</title>
+      <title>andriod</title>
       <link>https://shubhamnishad.com/tags/andriod/</link>
       <pubDate>Sun, 09 Jul 2017 14:42:12 +0530</pubDate>
       
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>Barcode</title>
+      <title>barcode</title>
       <link>https://shubhamnishad.com/tags/barcode/</link>
       <pubDate>Sun, 09 Jul 2017 14:42:12 +0530</pubDate>
       
@@ -31,20 +31,20 @@
     </item>
     
     <item>
-      <title>Base62</title>
-      <link>https://shubhamnishad.com/tags/base62/</link>
-      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      <title>java</title>
+      <link>https://shubhamnishad.com/tags/java/</link>
+      <pubDate>Sun, 09 Jul 2017 14:42:12 +0530</pubDate>
       
-      <guid>https://shubhamnishad.com/tags/base62/</guid>
+      <guid>https://shubhamnishad.com/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blogs</title>
-      <link>https://shubhamnishad.com/tags/blogs/</link>
+      <title>CSS</title>
+      <link>https://shubhamnishad.com/tags/css/</link>
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
-      <guid>https://shubhamnishad.com/tags/blogs/</guid>
+      <guid>https://shubhamnishad.com/tags/css/</guid>
       <description></description>
     </item>
     
@@ -54,15 +54,6 @@
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
       <guid>https://shubhamnishad.com/tags/chrome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Css</title>
-      <link>https://shubhamnishad.com/tags/css/</link>
-      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
-      
-      <guid>https://shubhamnishad.com/tags/css/</guid>
       <description></description>
     </item>
     
@@ -85,16 +76,34 @@
     </item>
     
     <item>
-      <title>Java</title>
-      <link>https://shubhamnishad.com/tags/java/</link>
-      <pubDate>Sun, 09 Jul 2017 14:42:12 +0530</pubDate>
+      <title>SEO</title>
+      <link>https://shubhamnishad.com/tags/seo/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
-      <guid>https://shubhamnishad.com/tags/java/</guid>
+      <guid>https://shubhamnishad.com/tags/seo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jquery</title>
+      <title>base62</title>
+      <link>https://shubhamnishad.com/tags/base62/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/tags/base62/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogs</title>
+      <link>https://shubhamnishad.com/tags/blogs/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/tags/blogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jQuery</title>
       <link>https://shubhamnishad.com/tags/jquery/</link>
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
@@ -103,7 +112,16 @@
     </item>
     
     <item>
-      <title>Pp</title>
+      <title>javascript</title>
+      <link>https://shubhamnishad.com/tags/javascript/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pp</title>
       <link>https://shubhamnishad.com/tags/pp/</link>
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
@@ -112,11 +130,11 @@
     </item>
     
     <item>
-      <title>Seo</title>
-      <link>https://shubhamnishad.com/tags/seo/</link>
+      <title>react</title>
+      <link>https://shubhamnishad.com/tags/react/</link>
       <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
       
-      <guid>https://shubhamnishad.com/tags/seo/</guid>
+      <guid>https://shubhamnishad.com/tags/react/</guid>
       <description></description>
     </item>
     

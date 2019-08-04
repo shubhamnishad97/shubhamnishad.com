@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java on Shubham Nishad</title>
+    <title>java on Shubham Nishad</title>
     <link>https://shubhamnishad.com/tags/java/</link>
-    <description>Recent content in Java on Shubham Nishad</description>
+    <description>Recent content in java on Shubham Nishad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2018 Copyright Text</copyright>
+    <copyright>© 2019 Copyright Text</copyright>
     <lastBuildDate>Sun, 09 Jul 2017 14:42:12 +0530</lastBuildDate>
     
 	<atom:link href="https://shubhamnishad.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,8 @@
       <pubDate>Sun, 09 Jul 2017 14:42:12 +0530</pubDate>
       
       <guid>https://shubhamnishad.com/projects/barcode/</guid>
-      <description>Scan Barcode &amp;amp; QR code is a simple and fast code scanner with all the features a modern android app. 
+      <description>Scan Barcode &amp;amp; QR code is a simple and fast code scanner with all the features a modern android app.
+
 I completed the Udacity andriod course and decided to make my own app.
 
 Reasons to make the Scanner app :  The idea did not looked complex for a beginner to implement. I already knew a barcode scanner library which was pretty popular. All the similar apps on playstore had AD&amp;rsquo;S and I wanted a AD free version.</description>
