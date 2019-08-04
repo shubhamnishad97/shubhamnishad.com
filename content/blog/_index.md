@@ -3,8 +3,8 @@ categories = []
 
 tags = []
 title = "Blog"
-description = "my ideas, my thoughts all are here"
-Keywords = ["Static WebSite Engine","Hugo","GoHugo","SEO"]
+description = "my life, my ideas"
+Keywords = ["software","computer","it","software developer","shubham nishad","shubhamnishad","student","internship","job","technology", "canada", "work permit", "ottawa", "canada"]
 
 +++
 
