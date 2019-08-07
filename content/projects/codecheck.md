@@ -1,9 +1,9 @@
 +++
 categories = ["projects"]
 date = "2017-06-24T14:42:12+05:30"
-tags = ["jQuery","Django"]
+tags = ["jQuery","Django","html"]
 title = "CodeCheck"
-Keywords = ["Hackerrank","Django","jQuery","online judge"]
+Keywords = ["Hackerrank","Django","jQuery","online judge", "full stack django","shubham nishad"]
 short = "A Django based online judge made using the Hackerrank API. Fully featured with contests, tracks and various leaderboards. Highly functional code editor using Ace Editor."
 +++
 

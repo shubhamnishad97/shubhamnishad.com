@@ -1,9 +1,9 @@
 +++
 categories = ["projects"]
 date = "2017-06-24T14:42:12+05:30"
-tags = ["Hugo","CSS","SEO"]
+tags = ["Hugo","html"]
 title = "ShubhamNishad.com"
-Keywords = ["Developer Blog","Hugo","github pages","cloudfare cdn","travis ci"]
+Keywords = ["Developer Blog","Hugo","github pages","cloudfare cdn","travis ci","shubham nishad","canada developer"]
 short= "Personal Website made using Hugo. Github Pages + Custom Domain + Cloudfare CDN.Continuous Integration and Deployment using Travis CI."
 +++
 <br>

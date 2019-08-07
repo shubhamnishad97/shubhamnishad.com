@@ -3,7 +3,7 @@ categories = ["projects"]
 date = "2017-07-09T14:42:12+05:30"
 tags = ["andriod","barcode", "java"]
 title = "ScanBarcode-QRcode"
-Keywords = ["scan barcode","andriod","free scanner","simple andriod scanner"]
+Keywords = ["scan barcode","andriod","free scanner","simple andriod scanner", "easy project", "shubham nishad"]
 short = "Scan Barcode & QR code is a simple and fast code scanner with all the features a modern android app."
 +++
 

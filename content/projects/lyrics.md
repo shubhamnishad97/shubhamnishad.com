@@ -1,9 +1,9 @@
 +++
 categories = ["projects"]
 date = "2017-06-24T14:42:12+05:30"
-tags = ["react", "javascript"]
+tags = ["react", "javascript", "html"]
 title = "Lyrics Search React"
-Keywords = ["react app","simple easy project","context api","musixmatch api"]
+Keywords = ["react app","simple easy project","context api","musixmatch api","shubham nishad"]
 short = "Simple react app. Find lyrics of songs using Musixmatch api."
 +++
 

@@ -1,9 +1,9 @@
 +++
 categories = ["projects"]
 date = "2017-06-24T14:42:12+05:30"
-tags = ["jQuery","Chrome"]
+tags = ["jQuery","Chrome", "html"]
 title = "QR Code Generator"
-Keywords = ["Static WebSite Engine","Hugo","GoHugo","SEO"]
+Keywords = ["qr code","javascript","simple chrome extension","shubham nishad"]
 short = "Generate fast and simple QR codes for sharing with this chrome extension along with option to save the generated qrcode as image."
 +++
 
