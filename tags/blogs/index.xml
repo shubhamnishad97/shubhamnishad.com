@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogs on Shubham Nishad</title>
+    <link>https://shubhamnishad.com/tags/blogs/</link>
+    <description>Recent content in blogs on Shubham Nishad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Copyright Text</copyright>
+    <lastBuildDate>Sat, 24 Jun 2017 14:42:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://shubhamnishad.com/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blogs to follow</title>
+      <link>https://shubhamnishad.com/resources/blogs/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/resources/blogs/</guid>
+      <description>Sites  Steve Yegge of Google fame: He has very strong opinion about things and most of them are pretty valid. Hacker News: my daily dose of tech news with a highly critical corwd. Joel Spolsky: He&amp;rsquo;s the co-founder of Stack Overflow, you cant go wrong with him. His articles are very detailed and act as a guide for surviving in Software world. Julia Evans: Julia is famous for her ability to explain concepts very easily.</description>
+    </item>
+    
+  </channel>
+</rss>

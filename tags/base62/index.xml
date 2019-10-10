@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>base62 on Shubham Nishad</title>
+    <link>https://shubhamnishad.com/tags/base62/</link>
+    <description>Recent content in base62 on Shubham Nishad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Copyright Text</copyright>
+    <lastBuildDate>Sat, 24 Jun 2017 14:42:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://shubhamnishad.com/tags/base62/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>URL Shortener</title>
+      <link>https://shubhamnishad.com/projects/urlshortener/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/urlshortener/</guid>
+      <description>URL-Shortener A simple and easy to use web app built using Django. Simply give the url you want reduced and get the new shortened url based on base62 encoding. Wanna try this app? Visit: http://shly.pythonanywhere.com/
+
+I developed this app after watching this video by Tushar Roy about tiny url. I wanted my own solution and was also interested in particle.js hence this project was born.
+
+Features:  Url shortening using Base62 encoding.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on Shubham Nishad</title>
+    <link>https://shubhamnishad.com/tags/django/</link>
+    <description>Recent content in Django on Shubham Nishad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Copyright Text</copyright>
+    <lastBuildDate>Sat, 24 Jun 2017 14:42:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://shubhamnishad.com/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CodeCheck</title>
+      <link>https://shubhamnishad.com/projects/codecheck/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/codecheck/</guid>
+      <description> CodeCheck is a Django based online judge made using the Hackerrank API. https://code-check-csi.herokuapp.com/
+
+Features  Supports 54 languages Contests can be hosted Tracks can be added Direct compiler is provided to run any code Keeps tracks of solved questions of user better user stats with leaderboard and charts User friendly and fully responsive  Packages/Platforms used  Django django-allauth django-crispy-forms Heroku Ace Editor  
+          </description>
+    </item>
+    
+    <item>
+      <title>Django Resources</title>
+      <link>https://shubhamnishad.com/resources/django-resources/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/resources/django-resources/</guid>
+      <description>Sites  simple is better than complex: this is a place where almost all articles are very detailed and focus on making you a better developer. It has articles regarding various aspects of django from auth to rest api to models etc. Django Official Site: The documentation provided is one of the strengths of Django and the growth of its eco-system. Very detailed use cases are explained in the documentation.</description>
+    </item>
+    
+    <item>
+      <title>Toki-keep a note</title>
+      <link>https://shubhamnishad.com/projects/toki/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/toki/</guid>
+      <description>toki-keep-a-note A simple note taking app made with Django. http://toki1.pythonanywhere.com/
+
+Toki is a simple note taking Django project. It was developed to act as a Hands-on and to increase my experience with a MVC framework(MTV as in the case of Django).
+I was interested in Django from the first time I searched about and after a little investigation I choose Django as the base for this project.</description>
+    </item>
+    
+    <item>
+      <title>URL Shortener</title>
+      <link>https://shubhamnishad.com/projects/urlshortener/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/urlshortener/</guid>
+      <description>URL-Shortener A simple and easy to use web app built using Django. Simply give the url you want reduced and get the new shortened url based on base62 encoding. Wanna try this app? Visit: http://shly.pythonanywhere.com/
+
+I developed this app after watching this video by Tushar Roy about tiny url. I wanted my own solution and was also interested in particle.js hence this project was born.
+
+Features:  Url shortening using Base62 encoding.</description>
+    </item>
+    
+  </channel>
+</rss>

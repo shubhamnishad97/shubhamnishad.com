@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jQuery on Shubham Nishad</title>
+    <link>https://shubhamnishad.com/tags/jquery/</link>
+    <description>Recent content in jQuery on Shubham Nishad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Copyright Text</copyright>
+    <lastBuildDate>Sat, 24 Jun 2017 14:42:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://shubhamnishad.com/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CodeCheck</title>
+      <link>https://shubhamnishad.com/projects/codecheck/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/codecheck/</guid>
+      <description> CodeCheck is a Django based online judge made using the Hackerrank API. https://code-check-csi.herokuapp.com/
+
+Features  Supports 54 languages Contests can be hosted Tracks can be added Direct compiler is provided to run any code Keeps tracks of solved questions of user better user stats with leaderboard and charts User friendly and fully responsive  Packages/Platforms used  Django django-allauth django-crispy-forms Heroku Ace Editor  
+          </description>
+    </item>
+    
+    <item>
+      <title>QR Code Generator</title>
+      <link>https://shubhamnishad.com/projects/qrgenerator/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/qrgenerator/</guid>
+      <description>QR Code Generator Generate fast and simple QR codes for sharing. Download the extension here
+
+Although this a chrome extension but a web version using the same code is hosted on Github Pages for a quick look. https://shubhamnishad97.github.io/QR-Code-Generator/
+
+I wanted to learn to make extensions from the first time I used one. This extension acted as the perfect idea and hence it was born. This is one part of my QRCode sharing project.</description>
+    </item>
+    
+  </channel>
+</rss>

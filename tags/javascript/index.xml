@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Shubham Nishad</title>
+    <link>https://shubhamnishad.com/tags/javascript/</link>
+    <description>Recent content in javascript on Shubham Nishad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Copyright Text</copyright>
+    <lastBuildDate>Sat, 24 Jun 2017 14:42:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://shubhamnishad.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lyrics Search React</title>
+      <link>https://shubhamnishad.com/projects/lyrics/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/lyrics/</guid>
+      <description>Simple react app. Find lyrics of songs using Musixmatch api
+Site: https://lyrics-search-react.netlify.com/
+I made this project to get familiar with react. Context-api is used instead of redux as the project is simple. Bootstrap-MD is used for styling. Axios is used for making all the requests.
+
+How to use:  On the landing page a search component is displayed along with the Top 10 songs of India at that moment.</description>
+    </item>
+    
+  </channel>
+</rss>

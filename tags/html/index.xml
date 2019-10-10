@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html on Shubham Nishad</title>
+    <link>https://shubhamnishad.com/tags/html/</link>
+    <description>Recent content in html on Shubham Nishad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Copyright Text</copyright>
+    <lastBuildDate>Sat, 24 Jun 2017 14:42:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://shubhamnishad.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CodeCheck</title>
+      <link>https://shubhamnishad.com/projects/codecheck/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/codecheck/</guid>
+      <description> CodeCheck is a Django based online judge made using the Hackerrank API. https://code-check-csi.herokuapp.com/
+
+Features  Supports 54 languages Contests can be hosted Tracks can be added Direct compiler is provided to run any code Keeps tracks of solved questions of user better user stats with leaderboard and charts User friendly and fully responsive  Packages/Platforms used  Django django-allauth django-crispy-forms Heroku Ace Editor  
+          </description>
+    </item>
+    
+    <item>
+      <title>Lyrics Search React</title>
+      <link>https://shubhamnishad.com/projects/lyrics/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/lyrics/</guid>
+      <description>Simple react app. Find lyrics of songs using Musixmatch api
+Site: https://lyrics-search-react.netlify.com/
+I made this project to get familiar with react. Context-api is used instead of redux as the project is simple. Bootstrap-MD is used for styling. Axios is used for making all the requests.
+
+How to use:  On the landing page a search component is displayed along with the Top 10 songs of India at that moment.</description>
+    </item>
+    
+    <item>
+      <title>QR Code Generator</title>
+      <link>https://shubhamnishad.com/projects/qrgenerator/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/qrgenerator/</guid>
+      <description>QR Code Generator Generate fast and simple QR codes for sharing. Download the extension here
+
+Although this a chrome extension but a web version using the same code is hosted on Github Pages for a quick look. https://shubhamnishad97.github.io/QR-Code-Generator/
+
+I wanted to learn to make extensions from the first time I used one. This extension acted as the perfect idea and hence it was born. This is one part of my QRCode sharing project.</description>
+    </item>
+    
+    <item>
+      <title>ShubhamNishad.com</title>
+      <link>https://shubhamnishad.com/projects/shubhamnishad.com/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/shubhamnishad.com/</guid>
+      <description>I believe every developer (atleast web developer) should have a place on the net to display or showcase his/her work. shubhamnishad.com is my place to showcase different projects and to capture my journey and growth as a Software Developer.
+
+Technologies used in my site  Hugo &amp;ndash; the fastest static site generator made with go. Github Pages for free hosting solution. Cloudfare for acting as CDN and also providing free SSL certificate.</description>
+    </item>
+    
+    <item>
+      <title>Toki-keep a note</title>
+      <link>https://shubhamnishad.com/projects/toki/</link>
+      <pubDate>Sat, 24 Jun 2017 14:42:12 +0530</pubDate>
+      
+      <guid>https://shubhamnishad.com/projects/toki/</guid>
+      <description>toki-keep-a-note A simple note taking app made with Django. http://toki1.pythonanywhere.com/
+
+Toki is a simple note taking Django project. It was developed to act as a Hands-on and to increase my experience with a MVC framework(MTV as in the case of Django).
+I was interested in Django from the first time I searched about and after a little investigation I choose Django as the base for this project.</description>
+    </item>
+    
+  </channel>
+</rss>
